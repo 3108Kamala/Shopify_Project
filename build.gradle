@@ -10,8 +10,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation group: 'ru.sbtqa', name: 'webdrivermanager', version: '2.4.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.27.0'
 }
 
 test {
